@@ -1,6 +1,9 @@
+//Update these variables 
+// width/height of each square in the grid
 let scale = 10;
 let canvasWidth = 500;
 let canvasHeight = 500;
+
 var food;
 let snake;
 let poisons = new Array();
@@ -132,7 +135,7 @@ class Snake {
         }
     }
     died() {
-        alert("YOU DONE FUCKED UP");
+        alert("YOU FAILED");
         this.total = 0;
         this.tail = [];
     }
